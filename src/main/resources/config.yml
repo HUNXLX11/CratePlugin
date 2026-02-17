@@ -1,0 +1,28 @@
+crates:
+  default:
+    rewards:
+      - id: diamond
+        material: DIAMOND
+        display: "§b💎 เพชร x3"
+        weight: 40
+        commands:
+          - "give %player% diamond 3"
+      - id: gold_ingot
+        material: GOLD_INGOT
+        display: "§e🪙 ทองคำ x5"
+        weight: 60
+        commands:
+          - "give %player% gold_ingot 5"
+      - id: op_sword
+        material: NETHERITE_SWORD
+        display: "§c§l⚔ Netherite Sword"
+        weight: 10
+        commands:
+          - "give %player% netherite_sword 1"
+      - id: nether_star
+        material: NETHER_STAR
+        display: "§d§l★ Ultra Rare"
+        weight: 2
+        commands:
+          - "say %player% ได้รับ Ultra Rare จาก Mystery Crate!"
+          - "give %player% nether_star 1"
